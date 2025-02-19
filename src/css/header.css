@@ -1,0 +1,83 @@
+.header-container {
+  padding: 20px;
+  background-color: rgb(79, 165, 222);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  max-width: 100%;
+  color: white;
+  font-family: "Great Vibes", cursive;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 25px;
+}
+
+.header-navigation {
+  width: 50%;
+}
+
+.header-navigation-lists {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header-navigation-lists a {
+  color: aquamarine;
+}
+
+.header-navigation-lists li {
+  transition: 0.3s;
+}
+
+.header-navigation-lists li:hover {
+  transform: scale(1.4);
+  transition: 0.3s;
+}
+
+.header-navigation-lists a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: chocolate;
+}
+
+.dark-theme-header-container {
+  padding: 20px;
+  background-color: rgb(10, 28, 40);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  max-width: 100%;
+  color: white;
+  font-family: "Great Vibes", cursive;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 25px;
+}
+
+.dark-theme-header-navigation {
+  width: 50%;
+}
+
+.dark-theme-header-navigation-lists {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.dark-theme-header-navigation-lists a {
+  color: darkgreen;
+}
+
+.dark-theme-header-navigation-lists li {
+  transition: 0.3s;
+}
+
+.dark-theme-header-navigation-lists li:hover {
+  transform: scale(1.4);
+  transition: 0.3s;
+}
+
+.dark-theme-header-navigation-lists a:hover {
+  color: darkgreen;
+}

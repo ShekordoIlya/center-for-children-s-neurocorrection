@@ -1,0 +1,107 @@
+.main-container {
+  height: 100vh;
+  text-align: center;
+  width: 100%;
+  background-image: url("../assets/bg-cloud.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.main-container p {
+  color: darkgreen;
+  font-family: "Great Vibes", cursive;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 35px;
+  width: 80%;
+  padding-top: 100px;
+  margin: auto;
+  height: 60%;
+  /* word-break: break-all; */
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.button-wrapper button {
+  width: 250px;
+  height: 80px;
+  background-color: #c20683;
+  border-radius: 80px;
+  color: #0bd6d6;
+  font-family: "Great Vibes", cursive;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 23px;
+  cursor: pointer;
+  box-shadow: 5px -5px 20px 2px #585e9b;
+  transition: 0.3s;
+}
+
+.button-wrapper button:hover {
+  box-shadow: 10px -10px 15px 2px #868ee6;
+  transition: 0.3s;
+  background-color: #868ee6;
+  transform: scale(1.1);
+}
+
+.button-wrapper button:active {
+  background-color: #86b0e6;
+}
+
+.fa-arrow-up {
+  font-size: 50px;
+}
+
+.dark-theme-main-container {
+  height: 100vh;
+  text-align: center;
+  width: 100%;
+  background-color: rgb(66, 33, 10);
+  background-size: 100%;
+}
+
+.dark-theme-main-container p {
+  color: rgb(192, 236, 192);
+  font-family: "Great Vibes", cursive;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 35px;
+  width: 80%;
+  padding-top: 100px;
+  margin: auto;
+  height: 60%;
+}
+
+.dark-theme-button-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+.dark-theme-button-wrapper button:hover {
+  box-shadow: 10px -10px 15px 2px #c3c4d8;
+  transition: 0.3s;
+  background-color: #acadba;
+  transform: scale(1.1);
+}
+
+.dark-theme-button-wrapper button:active {
+  background-color: #8e9fb7;
+}
+
+.dark-theme-button-wrapper button {
+  width: 250px;
+  height: 80px;
+  background-color: #e796cc;
+  border-radius: 80px;
+  color: #0bd6d6;
+  font-family: "Great Vibes", cursive;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 23px;
+  cursor: pointer;
+  box-shadow: 5px -5px 20px 2px #b2b7ec;
+  transition: 0.3s;
+}
