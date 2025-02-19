@@ -1,0 +1,60 @@
+@import url("./cdn.css");
+
+.footer-container {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  background-color: aquamarine;
+  align-items: center;
+}
+
+.social-network {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.fa-square-instagram,
+.fa-telegram {
+  font-size: 35px;
+  transition: 0.3s;
+}
+
+.fa-square-instagram:hover,
+.fa-telegram:hover {
+  transform: scale(1.2);
+  transition: 0.3s;
+}
+
+.phone-call {
+  display: flex;
+  flex-direction: column;
+}
+
+.dark-theme-footer-container {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(10, 28, 40);
+  align-items: center;
+  color: bisque;
+}
+
+.dark-theme-phone-call {
+  display: flex;
+  flex-direction: column;
+}
+
+.dark-theme-phone-call > a {
+  color: rgb(245, 235, 222);
+}
+
+.dark-theme-social-network {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.dark-theme-social-network > .fa-square-instagram {
+  color: bisque;
+}

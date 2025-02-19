@@ -1,0 +1,25 @@
+.specialists-container {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: bisque;
+}
+
+.specialist {
+  text-align: center;
+}
+
+.dark-theme-specialists-container {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(6, 49, 70);
+}
+
+.dark-theme-specialist {
+  text-align: center;
+}
